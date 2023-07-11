@@ -1,0 +1,133 @@
+.search{
+    float: right;
+    margin-bottom: 2em;
+    width: 100%;
+    max-width: 450px;
+}
+.sIcon{
+    position: relative;
+    top: -37px;
+    left: 10px;
+    padding: 0px;
+    display: inline;
+}
+
+.micardinpt {
+    width: 100%;
+    box-sizing: border-box !important;
+    margin: 0 auto !important;
+    border: 1px solid #d9d7d7;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    outline: none;
+}
+
+.addbutton{
+    border: none;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+.addbutton:hover{
+    box-shadow: 2px 2px 4px rgb(202, 200, 200);
+    transform: translateY(-2px);
+}
+
+.form{
+    box-shadow: 0px 0px 8px rgb(202, 200, 200);
+    border-radius: 6px;
+}
+
+.formhead{
+    background-color: cadetblue;
+    padding: 0.5em 2em;
+    color: white;
+    margin: 0;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.formbody{
+    padding: 0.5em 1.5em;
+    box-sizing: border-box;
+    margin: 0px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding-bottom: 2.5em;
+}
+
+.formlable {
+    margin-bottom: 0.5em;
+    margin-left: 0.3em;
+    font-weight: 400;
+    color: black;
+}
+
+.forminput {
+    width: 100%;
+    box-sizing: border-box !important;
+    margin: 0 auto !important;
+    border: 1px solid #d9d7d7;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    outline: none;
+}
+
+.col-lg-4,.col-lg-6{
+    padding: 5px !important;
+}
+
+.arraybox{
+    border: 1px solid #d9d7d7;
+    border-radius: 6px;
+    padding:1em;
+    min-height: 150px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.login {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.login button{
+    border: none;
+    border-radius: 50%;
+    padding: 2em;
+    background-color: #e73c7e;
+    font-family: prosans;
+    color:white;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px black inset;
+    transition: all 0.3s;
+}
+
+.login button:active{
+    transform: translateY(0px);
+    box-shadow: none;
+}
+
+.cntr{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

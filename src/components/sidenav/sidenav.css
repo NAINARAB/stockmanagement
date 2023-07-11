@@ -1,0 +1,41 @@
+.side{
+    display: flex;
+    flex-direction: column;
+}
+
+.side button{
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    text-align: left;
+    background-color: transparent;
+}
+
+.side button:hover{
+    background-color: #f2f2f2;
+    color:blue;
+}
+
+.blue{
+    color: darkred;
+    background-color: rgb(231, 229, 229) !important;
+}
+
+.menuhide{
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    display: none;
+}
+
+@media only screen and (max-width: 991px) {
+    .menuhide{
+        display: block;
+    }
+    .hideside{
+        display: none;
+    }
+    .smain, .linkbut{
+        font-size: 1rem !important;
+    }
+  }
